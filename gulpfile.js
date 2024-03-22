@@ -9,7 +9,7 @@ gulp.task("licenses", async function () {
       gap.prependText(`/*!
 
       =========================================================
-      * Purity UI Dashboard - v1.0.1
+      * Purity UI Dashboard - v3.0.0
       =========================================================
       
       * Product Page: https://www.creative-tim.com/product/purity-ui-dashboard
@@ -17,6 +17,7 @@ gulp.task("licenses", async function () {
       * Licensed under MIT (https://github.com/creativetimofficial/purity-ui-dashboard/blob/master/LICENSE.md)
       
       * Design by Creative Tim & Coded by Simmmple
+      * Updated by Adrian Stokes <adrian@anstech.co.uk>
       
       =========================================================
       
@@ -34,7 +35,7 @@ gulp.task("licenses", async function () {
       /*!
       
       =========================================================
-      * Purity UI Dashboard - v1.0.1
+      * Purity UI Dashboard - v3.0.0
       =========================================================
       
       * Product Page: https://www.creative-tim.com/product/purity-ui-dashboard
@@ -42,6 +43,7 @@ gulp.task("licenses", async function () {
       * Licensed under MIT (https://github.com/creativetimofficial/purity-ui-dashboard/blob/master/LICENSE.md)
       
       * Design by Creative Tim & Coded by Simmmple
+      * Updated by Adrian Stokes <adrian@anstech.co.uk>
       
       =========================================================
       
@@ -59,7 +61,7 @@ gulp.task("licenses", async function () {
       gap.prependText(`/*!
 
       =========================================================
-      * Purity UI Dashboard - v1.0.1
+      * Purity UI Dashboard - v3.0.0
       =========================================================
       
       * Product Page: https://www.creative-tim.com/product/purity-ui-dashboard
@@ -67,6 +69,7 @@ gulp.task("licenses", async function () {
       * Licensed under MIT (https://github.com/creativetimofficial/purity-ui-dashboard/blob/master/LICENSE.md)
       
       * Design by Creative Tim & Coded by Simmmple
+      * Updated by Adrian Stokes <adrian@anstech.co.uk>
       
       =========================================================
       

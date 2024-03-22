@@ -1,5 +1,26 @@
 # Change Log
 
+## [3.0.0] 2024-03-22
+
+- Converted to Typescript
+- Removed superfluous dependencies
+- Updated dependencies
+
+### Updated dependencies
+```
+chakra-ui/icons                      1.1.5         →         2.1.1
+chakra-ui/react                      1.8.8         →         2.8.2
+chakra-ui/system                     1.12.1        →         2.0.0
+chakra-ui/theme-tools                1.3.6         →         2.1.2
+apexcharts                           3.27.3        →         3.41.0
+framer-motion                        4.1.17        →         11.0.20
+react                                16.14.0       →         18.2.22
+react-apex-charts                    1.3.9         →         1.4.1
+react-icons                          4.2.0         →         5.0.1
+react-router-dom                     5.2.1         →         6.22.0
+react-scripts                        5.0.0         →         5.0.1
+```
+
 ## [2.0.3] 2022-09-08
 
 ### Update v2.0.3

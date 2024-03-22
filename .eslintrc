@@ -1,0 +1,35 @@
+{
+  "globals": {
+    "T": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": ["airbnb", "airbnb-typescript", "prettier"],
+  "plugins": ["@typescript-eslint", "import", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "project": "./tsconfig.eslint.json"
+  },
+  "env": {
+		"browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+	"settings": {
+		"import/core-modules": []
+	},
+  "rules": {
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/label-has-associated-control": [ 2, {
+      "controlComponents": ["InputText"],
+      "depth": 3
+    }],
+		"react/jsx-props-no-spreading": "off",
+    
+    "react/jsx-sort-props": ["error"],
+    "comma-dangle": ["error", "always-multiline"],
+    "indent": ["error", 2],
+    "semi": ["error", "always"]
+  }
+}
