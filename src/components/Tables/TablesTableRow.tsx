@@ -47,7 +47,6 @@ export default function TablesTableRow(props: TTablesTableRowProps) {
           </Flex>
         </Flex>
       </Td>
-
       <Td>
         <Flex direction="column">
           <Text color={textColor} fontSize="md" fontWeight="bold">

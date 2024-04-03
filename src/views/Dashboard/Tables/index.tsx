@@ -1,6 +1,6 @@
-// Chakra imports
 import React from "react";
 
+// Chakra imports
 import { Flex } from "@chakra-ui/react";
 
 import { tablesTableData, dashboardTableData } from "@variables/general";

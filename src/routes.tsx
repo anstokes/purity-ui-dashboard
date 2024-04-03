@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom';
 import Billing from "@views/Dashboard/Billing";
 import Dashboard from "@views/Dashboard/Dashboard";
 import Profile from "@views/Dashboard/Profile";
+import ReactTable from '@views/Dashboard/ReactTable';
 import RTLPage from "@views/Dashboard/RTL";
 import Tables from "@views/Dashboard/Tables";
 import SignIn from "@views/Auth/SignIn";
@@ -123,6 +124,13 @@ const routes: IRouteArray = [
     rtlName: "لوحة القيادة",
     icon: <StatsIcon color="inherit" />,
     component: Tables,
+    layout: "/admin",
+  },
+  {
+    path: "/react-table",
+    name: "React Table",
+    icon: <StatsIcon color="inherit" />,
+    component: ReactTable,
     layout: "/admin",
   },
   {
